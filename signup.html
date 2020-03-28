@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html" charset="utf-8"/>
+	<title>Untitled Document</title>
+	<link rel="stylesheet" type="text/css" href="signup.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="main">
+	<h1>HunterBuzz</h1>
+	 <div class="Contactx">
+      <span><i class="fa fa-phone"></i><b> &nbsp; 123-456-789</b></span>
+      <span><i class="fa fa-envelope"></i> <b>&nbsp; info@nkitdotnet.com</b></span>
+      <span><i class="fa fa-map-marker" ></i> <b>&nbsp; Mumbai, Maharashtra</b></span>
+   </div>
+    </div>
+	<div class="topnav">
+  
+  <a class="active" href="newproject.html"><i class="fa fa-fw fa-home"></i>Home</a>
+  <a href="newproject.html#aboutx"><i class="fa fa-fw fa-details"></i>About</a>
+  <a href="newproject.html#fooot"><i class="fa fa-fw fa-envelope"></i>Contact</a>
+  <a href="login.html"><i class="fa fa-fw fa-user"></i>Login</a>
+
+        <div class="searchBox">
+
+            <input class="searchInput"type="text" name="" placeholder="Search">
+            <button class="searchButton" href="#">
+                <i class="material-icons">
+                    search
+                </i>
+            </button>
+        </div>
+</div>
+<div class="slider"> 
+	 <div class="newtext">
+    
+      
+         </div>
+	</div>
+<div class="signup">
+	<form>
+		<h2 style="color: #fff">Sign Up</h2>
+		<input type="text" name="username" placeholder="First Name"><br><br>
+		<input type="text" name="username" placeholder="Last Name"><br><br>
+		<input type="password" name="pass" placeholder="Password"><br><br>
+		<input type="password" name="pass" placeholder="Confirm Password"><br><br>
+		<input type="text" name="email" placeholder="Email Address"><br><br>
+		<input type="button" value="Sign up" onclick="myfunction()"><br><br>
+        <div id="msg">Congratulations you sign up successfully!!</div>
+<script type="text/javascript">
+	function myfunction(){
+		var x = document.getElementById("msg");
+		x.className = "show";
+		setTimeout(function(){x.className = x.className.replace("show", "");}, 3000);
+	}
+</script>
+  Already have account?<a href="login.html" style="text-decoration: none;font-family: 'Play', sans-serif; color: yellow;">&nbsp;Log In</a>
+	</form>
+</div>
+</body>
+</html>
